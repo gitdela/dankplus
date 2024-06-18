@@ -142,7 +142,7 @@ const FormComponent = ({ form, onSubmit }: { form: any; onSubmit: any }) => {
         </p>
         <Button
           type='submit'
-          className='w-42 py-7 bg-[#002a8a] text-[#f4a700] text-xl rounded-full hover:bg-[#f4a700] hover:text-[#002a8a] transition-all ease-in-out duration-300'
+          className='py-7 w-48 bg-[#002a8a] text-[#f4a700] text-base md:text-lg rounded-full hover:bg-[#f4a700] hover:text-[#002a8a] transition-all ease-in-out duration-300'
         >
           Submit
         </Button>

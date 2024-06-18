@@ -4,8 +4,8 @@ import React from 'react';
 const WhoWeAre = () => {
   return (
     <section className='w-full bg-[#ffffff] text-gray-800'>
-      <div className='container mx-auto flex justify-between items-center gap-12 py-20'>
-        <div className='w-1/2 flex flex-col gap-12'>
+      <div className='container mx-auto flex flex-col lg:flex-row justify-between items-center gap-12 py-20'>
+        <div className='w-full lg:w-1/2 flex flex-col gap-12'>
           <h1 className='text-3xl font-bold text-center'>Who We Are</h1>
           <p className=''>
             With over 5 years of experience in the industry, Dankplus Solutions
@@ -24,7 +24,7 @@ const WhoWeAre = () => {
             clean and ready to absorb maximum sunlight.
           </p>
         </div>
-        <div className='w-1/3 flex justify-start'>
+        <div className='w-full lg:w-1/3 flex justify-start'>
           <Image
             className='w-full h-full shadow-2xl rounded'
             src={'https://picsum.photos/500/500'}

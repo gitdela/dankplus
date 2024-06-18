@@ -1,6 +1,9 @@
 const WhyChooseUs = () => {
   return (
-    <section className='w-full bg-[#ffffff] text-gray-800' id='whychooseus'>
+    <section
+      className='w-full bg-[#eeeeee] text-gray-800 py-20 my-10'
+      id='whychooseus'
+    >
       <div className='container mx-auto'>
         <h1 className='text-4xl font-bold text-center py-10'>
           What Makes Us Different?
